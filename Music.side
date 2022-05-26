@@ -1,0 +1,535 @@
+{
+  "id": "270a2e12-1725-480a-bca5-c85c754f063e",
+  "version": "2.0",
+  "name": "Music",
+  "url": "https://www.musixmatch.com/",
+  "tests": [{
+    "id": "7a213482-9cfc-4640-a672-d5363a38c165",
+    "name": "Login",
+    "commands": [{
+      "id": "5f0d6a4a-517f-4bed-8b60-3a83f08a0613",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.musixmatch.com/",
+      "targets": [],
+      "value": "https://www.musixmatch.com/"
+    }, {
+      "id": "966187ed-48a1-42cd-b55b-945b1e616ff6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.mui-nav__inline--custom", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sign-in')]", "xpath:href"],
+        ["xpath=//div[2]/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cba054c6-3e42-4d52-ace0-ac4269852a7a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input--md:nth-child(1)",
+      "targets": [
+        ["css=.mui-input--md:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "sergio.mijares@enroutesystems.com"
+    }, {
+      "id": "fbcd1320-3647-4582-a689-55877717f6d2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input:nth-child(2)",
+      "targets": [
+        ["css=.mui-input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Said9091"
+    }, {
+      "id": "a837942b-2c7a-454e-8534-4222d3a2ed9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-button--orange > .mui-button__label",
+      "targets": [
+        ["css=.mui-button--orange > .mui-button__label", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59a0ed91-376a-4cf8-8f35-1173849bc20d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mxm-user-avatar",
+      "targets": [
+        ["css=.mxm-user-avatar", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/span/button/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8330c87d-ebbb-4782-b01d-c4500489a2e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign out",
+      "targets": [
+        ["linkText=Sign out", "linkText"],
+        ["css=.mui-dropdown__menu-item:nth-child(3) > .mui-dropdown__menu-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign out')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/span/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sign-out')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2c37a107-8757-4079-8ad2-aff7d7a3dd54",
+    "name": "Register",
+    "commands": [{
+      "id": "e90878a8-02be-4802-95a7-adc95714f9f5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.musixmatch.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebd5635b-0e22-4aee-91cd-d121edeb47b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.mui-nav__inline--custom", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sign-in')]", "xpath:href"],
+        ["xpath=//div[2]/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "770ab5e9-750d-449e-92ec-7211b9c12994",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign up",
+      "targets": [
+        ["linkText=Sign up", "linkText"],
+        ["css=.mui-button--link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div[2]/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sign-up')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c333f824-14e4-4ecc-829e-ac5dc5843b1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-input--md:nth-child(1)",
+      "targets": [
+        ["css=.mui-input--md:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f99f40d5-fb29-4a9f-8a56-0797cba17f5e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input--md:nth-child(1)",
+      "targets": [
+        ["css=.mui-input--md:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "Sergio"
+    }, {
+      "id": "6609b1f8-75f6-4963-92ec-0b7f93419cc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-input:nth-child(2)",
+      "targets": [
+        ["css=.mui-input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb64b979-d281-4346-b0e8-074a4a1ca1ad",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input:nth-child(2)",
+      "targets": [
+        ["css=.mui-input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Mijares"
+    }, {
+      "id": "c4f3047f-5f2b-490a-bbe9-ab1acee9223f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-input:nth-child(3)",
+      "targets": [
+        ["css=.mui-input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div/form/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d31f486-1d72-4e31-9316-40e613a9b3e1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input:nth-child(3)",
+      "targets": [
+        ["css=.mui-input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div/form/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "sergio.mijares@enroutesystems.com"
+    }, {
+      "id": "8c103d88-bc37-45ca-a017-cff21d1a1c27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-input:nth-child(4)",
+      "targets": [
+        ["css=.mui-input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div/form/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acf4233e-11e0-495c-899f-84e60b61f009",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input:nth-child(4)",
+      "targets": [
+        ["css=.mui-input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div/form/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Said9091"
+    }, {
+      "id": "f755f3f1-28df-42fc-9210-e81615d47bfa",
+      "comment": "",
+      "command": "click",
+      "target": "id=disclaimer",
+      "targets": [
+        ["id=disclaimer", "id"],
+        ["css=#disclaimer", "css:finder"],
+        ["xpath=//input[@id='disclaimer']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div/form/div/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1d2f2f6-1d11-484b-bbc4-a8ca0d5a0e03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-button--lg > .mui-button__label",
+      "targets": [
+        ["css=.mui-button--lg > .mui-button__label", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/div/form/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//form/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "810aa79f-fc75-4d6a-98dc-14f297b49651",
+    "name": "Add favorite",
+    "commands": [{
+      "id": "a9995321-f151-4008-96cf-a39b732dc21b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.musixmatch.com/",
+      "targets": [],
+      "value": "https://www.musixmatch.com/"
+    }, {
+      "id": "caa0ba1a-15ac-493f-bec2-19de0bbe00f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.mui-nav__inline--custom", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sign-in')]", "xpath:href"],
+        ["xpath=//div[2]/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67a81fc9-42a1-456a-9816-d33f87b8dcb7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input--md:nth-child(1)",
+      "targets": [
+        ["css=.mui-input--md:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "sergio.mijares@enroutesystems.com"
+    }, {
+      "id": "cafffcac-f91a-459e-bcf8-8ebfad24abb3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input:nth-child(2)",
+      "targets": [
+        ["css=.mui-input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Said9091"
+    }, {
+      "id": "059d6d3f-3751-4510-bbcc-b73e87779d18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-button--orange > .mui-button__label",
+      "targets": [
+        ["css=.mui-button--orange > .mui-button__label", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9ba088a-4171-4263-a756-0572b3cc89fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Community",
+      "targets": [
+        ["linkText=Community", "linkText"],
+        ["css=.mui-nav__inline:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Community')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/community')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Community')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f0ec496-fc98-4fe6-85d6-dedd4857faf0",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["css=.search:nth-child(1) #search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='search-bar']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43f9e748-af6a-4594-8f30-cf332880e438",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["css=.search:nth-child(1) #search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='search-bar']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "The Killers - Human"
+    }, {
+      "id": "bb71f29d-814a-4afc-ab84-7bc6a27acf70",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["css=.search:nth-child(1) #search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='search-bar']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a2e8754e-69a3-4726-8276-df92d66e0a79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box:nth-child(1) .track-card",
+      "targets": [
+        ["css=.box:nth-child(1) .track-card", "css:finder"],
+        ["xpath=//div[@id='search-all-results']/div/div/div[2]/div/ul/li/div", "xpath:idRelative"],
+        ["xpath=//li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fbdce7f-b64a-49e1-840e-0aedb2d6d651",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-icon--heart2 > path",
+      "targets": [
+        ["css=.mui-icon--heart2 > path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "677a53ce-88e2-4c1a-9f8a-d44281c59fce",
+    "name": "Delete",
+    "commands": [{
+      "id": "2b121b85-8476-4729-8dab-3dfe4d5b3998",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.musixmatch.com/",
+      "targets": [],
+      "value": "https://www.musixmatch.com/"
+    }, {
+      "id": "522c8ece-a364-4019-93ea-eadac3f812b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.mui-nav__inline--custom", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sign-in')]", "xpath:href"],
+        ["xpath=//div[2]/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9068b1ef-ecad-4951-8279-8bc935137ff7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input--md:nth-child(1)",
+      "targets": [
+        ["css=.mui-input--md:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "sergio.mijares@enroutesystems.com"
+    }, {
+      "id": "7f6ecd5b-ae61-44a5-86dc-ad3b41c1bcf2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mui-input:nth-child(2)",
+      "targets": [
+        ["css=.mui-input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Said9091"
+    }, {
+      "id": "61753bb1-e93f-4ec7-b8c5-05fdbe610f2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-button--orange > .mui-button__label",
+      "targets": [
+        ["css=.mui-button--orange > .mui-button__label", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div/div/div/form/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de75cf6e-9b65-4d39-b264-9dfa8845f72f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mxm-user-avatar",
+      "targets": [
+        ["css=.mxm-user-avatar", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/span/button/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57ddc3d8-855d-4316-b9ad-784056637001",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile",
+      "targets": [
+        ["linkText=Profile", "linkText"],
+        ["css=.mui-dropdown__menu-item:nth-child(1) > .mui-dropdown__menu-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/span/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile/me')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ebb28a0-8744-4ffb-a367-9bde32abd27a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mxm-user__edit-profile-link-content",
+      "targets": [
+        ["css=.mxm-user__edit-profile-link-content", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/main/div/div/div/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Edit Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9905ad56-9e3e-425c-8c62-9ae34ea8a193",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ReactModal__Content",
+      "targets": [
+        ["css=.ReactModal__Content", "css:finder"],
+        ["xpath=//div[6]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d3941b-cada-437a-ab88-9afdef046115",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[10]/div[3]/div/div",
+      "targets": [
+        ["css=.r-1loqt21:nth-child(3) > .css-1dbjc4n > .css-901oao", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[10]/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fbb75d9-4e32-40f1-92ef-b79abb8ce811",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-1loqt21:nth-child(2) > .css-1dbjc4n > .css-901oao",
+      "targets": [
+        ["css=.r-1loqt21:nth-child(2) > .css-1dbjc4n > .css-901oao", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bf773469-401a-4a5a-a8b6-0a9998f6eb88",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7a213482-9cfc-4640-a672-d5363a38c165"]
+  }],
+  "urls": ["https://www.musixmatch.com/"],
+  "plugins": []
+}
